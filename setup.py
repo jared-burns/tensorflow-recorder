@@ -25,14 +25,14 @@ VERSION = '2.0'
 
 REQUIRED_PACKAGES = [
     "apache-beam[gcp] >= 2.22.0",
-    "avro >= 1.10.0",
+    #"avro == 1.10.0",
     "coverage >= 5.1",
     "ipython >= 7.15.0",
     "fire >= 0.3.1",
     "frozendict >= 1.2",
     "nose >= 1.3.7",
     "numpy < 1.19.0",
-    "pandas >= 1.0.4",
+    "pandas == 1.0.4",
     "Pillow >= 7.1.2",
     "pyarrow >= 0.17, < 0.18.0",
     "pylint >= 2.5.3",
